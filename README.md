@@ -29,10 +29,10 @@ Turn vessel in circles, Change NMEA device instance any other number to save mag
 
 
 ## MFD Sensor Orientation
-At MFD locate device and set NMEA device instance to nx where n is mounting orientation and x is desired NMEA device number 
-Based on Adafruit BNO055 module orientation
+At MFD locate device and set NMEA device instance to nx where n is mounting orientation and x is desired NMEA device number.  
+PCB Bottom is based on Adafruit BNO055 module orientation
 
-CODE|PCB	|Mounting|PCB Bottom 
+Instance|PCB	|Mounting surface|PCB Bottom 
 ---|---	|---	|---
 0x | Horizontal	|-	|Port       
 1x | Horizontal	|-	|Stbd       
