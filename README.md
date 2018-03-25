@@ -27,28 +27,32 @@ As the BNO055 is strongly affected by the magnetic environment you will need to 
 At an MFD set NMEA device instance to 200 to start magnatometer calibration.
 Turn vessel in circles, Change NMEA device instance any other number to save magnatometer calibration to EEPROM
 
+
 ## MFD Sensor Orientation
 At MFD locate device and set NMEA device instance to nx where n is mounting orientation and x is desired NMEA device number 
 Based on Adafruit BNO055 module orientation
-`	 PCB			Mounting	PCB Bottom
-0x = Horizontal					Port
-1x = Horizontal					Stbd
-2x = Horizontal					Fwd
-3x = Vertical		Fwd			Down
-4x = Vertical		Aft			Down
-5x = Vertical		Stbd		Down
-6x = Vertical		Port		Down
-7x = Vertical		Aft			Port
-8x = Vertical		Aft			Stbd
-9x = Vertical		Stbd		Aft	
-10x = Vertical		Port		Aft	
-11x = Vertical		Fwd			Port
-12x = Vertical		Fwd			Stbd
-`
+
+CODE|PCB	|Mounting|PCB Bottom 
+---|---	|---	|---
+0x | Horizontal	|-	|Port       
+1x | Horizontal	|-	|Stbd       
+2x | Horizontal	|-	|Fwd        
+3x | Vertical	|Fwd	|Down       
+4x | Vertical	|Aft	|Down       
+5x | Vertical	|Stbd	|Down       
+6x | Vertical	|Port	|Down       
+7x | Vertical	|Aft	|Port       
+8x | Vertical	|Aft	|Stbd      
+9x | Vertical	|Stbd	|Aft	   
+10x | Vertical	|Port	|Aft	   
+11x | Vertical	|Fwd	|Port      
+12x | Vertical	|Fwd	|Stbd      
+
 ### Tested Hardware
-Teensy 3.2 
-Bosch BNO055 Attitude Sensor connected via I2C
-MCP2562 CAN Transceiver
-LM7805 5V Linear regulator
-0.25A Poly fuse
+Teensy 3.2  
+Bosch BNO055 Attitude Sensor connected via I2C  
+MCP2562 CAN Transceiver  
+LM7805 5V Linear regulator  
+0.25A Poly fuse  
+
 
