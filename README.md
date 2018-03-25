@@ -30,7 +30,7 @@ Turn vessel in circles, Change NMEA device instance any other number to save mag
 ## MFD Sensor Orientation
 At MFD locate device and set NMEA device instance to nx where n is mounting orientation and x is desired NMEA device number 
 Based on Adafruit BNO055 module orientation
-	 PCB			Mounting	PCB Bottom
+`	 PCB			Mounting	PCB Bottom
 0x = Horizontal					Port
 1x = Horizontal					Stbd
 2x = Horizontal					Fwd
@@ -44,7 +44,7 @@ Based on Adafruit BNO055 module orientation
 10x = Vertical		Port		Aft	
 11x = Vertical		Fwd			Port
 12x = Vertical		Fwd			Stbd
-
+`
 ### Tested Hardware
 Teensy 3.2 
 Bosch BNO055 Attitude Sensor connected via I2C
