@@ -2,13 +2,13 @@
 ## Marine Rate Gyro and Heading sensor
 ## NMEA2000 style CAN Bus
 
-##PGN's sent 
+## PGN's sent 
 PGN 127257 Attitude
 PGN 127250 Vessel Heading
 PGN 127251 Rate Of Turn
 PGN 127258 Magnetic Variation (calculated from GPS position reports by WMM2015)
 
-##PGN's received
+## PGN's received
 PGN 127258 Magnetic Variation
 PGN 129029 GPS position
 PGN 126992 System Time
